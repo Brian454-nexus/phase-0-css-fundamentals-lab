@@ -3,3 +3,38 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center; /* Center the header text */
+}
+nav {
+  text-align: center; /* Center the navigation links */
+}
+nav a {
+  text-align: center;
+  padding: 10px;
+  background-color: grey; /* Change background color */
+  display: inline-block; /* Ensure padding is applied correctly */
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Center the image */
+}
+
+figcaption {
+  text-align: center;
+  font-size: medium; /* Shrink the font size */
+}
+#featured-property p {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto 20px auto; /* Center the text block and add vertical spacing */
+}
+
+#details div {
+  float: left;
+  background-color: red;
+  width: 25%;
+  text-align: center;
+}
